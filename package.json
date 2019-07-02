@@ -1,0 +1,14 @@
+{
+  "name": "prisma2_photonjs_example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node src/script.js",
+    "introspect": "prisma2 introspect",
+    "postinstall": "prisma2 generate"
+  },
+  "devDependencies": {
+    "ts-node": "^8.3"
+  }
+}
